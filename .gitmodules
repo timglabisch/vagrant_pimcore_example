@@ -21,4 +21,4 @@
 	url = https://github.com/opscode-cookbooks/xml
 [submodule "vendors/pimcore"]
 	path = vendors/pimcore
-	url = git@github.com:pimcore/pimcore.git
+	url = https://github.com/pimcore/pimcore
