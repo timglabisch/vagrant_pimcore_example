@@ -1,5 +1,5 @@
 execute "import data" do
-	command "mysql -uroot -p#{node[:mysql][:server_root_password]} < /vagrant/init.sql"
+	command "mysql -uroot -hlocalhost -p#{node[:mysql][:server_root_password]} < /vagrant/init.sql"
 	user "vagrant"
 end
 
